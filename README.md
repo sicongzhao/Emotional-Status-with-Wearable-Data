@@ -6,7 +6,7 @@ Currently, the major achievements are:
 
 1. A classification model with:
 * AUC-RoC: 0.76
-* Precision: 0.63
+* Precision: 0.61
 * Recall: 0.31
 * F1-Score: 0.40
 As a comparison, the precision of random guess is 0.11.

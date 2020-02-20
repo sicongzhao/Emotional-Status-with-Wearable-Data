@@ -33,4 +33,4 @@ From a business point of view, we need to account for new users and existing use
 * [Predict Emotion for New Users](https://github.com/RyC37/Emotional-Status-with-Wearable-Data/blob/master/Predict_Positive_or_Negative_Emotion_for_New_User.ipynb)
 
 I have also tried to tackle this problem as a regression problem, the result is not ideal and I have relative high RMSE, but I would like to share the result:
-* [Predict Emotion Score for Current Users](https://github.com/RyC37/Emotional-Status-with-Wearable-Data/blob/master/Predict_Valence_Score_for_Exiting_Fitbit_Users.ipynb)
+* [Predict Emotion Score for Current Users](https://github.com/RyC37/Emotional-Status-with-Wearable-Data/blob/master/Predict_Valence_Score_for_Current_Users.ipynb)

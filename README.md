@@ -10,6 +10,9 @@
 + [**References**](#references)
 
 <h3 id="introduction">1.Introduction</h3>
+
+As the popularity and capability of wearable activity trackers has increased over the last 20 years, so has an interest in what data derived from their internal sensors can tell us about our overall health. Commercially available wearable fitness trackers use accelerometer and heart rate data to give users insight regarding sleep, daily activity, and heart rate which are all important variables for a healthy life. Research has shown that daily stress levels also play an important role in our overall health, with large cumulative amounts of stress being detrimental to physical, psychological, and behavioral health. Given this, integrating emotion detection and monitoring with wearable sensor technology has become of interest. This project examines if emotional states can be reliably recognized from data derived from a commercially available wearable fitness tracker and additional indicators including neuroimaging, personality, and demographic data. 
+
 This is an ongoing project about determining if negative emotional states can be predicted from wearable activity sensor data.
 Currently, the major achievements are:
 

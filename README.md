@@ -4,10 +4,9 @@
 + [**Introduction**](#introduction)
 + [**Data Description**](#data)
 + [**Exploratory Data Analysis**](#EDA)
-+ [**Semantic Segmentation module**](#Semantic-Segmentation-module)
-+ [**Post-processing module**](#Post-processing-module)
-+ [**Accuracy evaluation**](#Accuracy-evaluation)
-+ [**References**](#references)
++ [**Feature Engineering**](#feature)
++ [**Modeling**](#model)
+
 
 <h2 id="introduction">1.Introduction</h2>
 
@@ -54,12 +53,12 @@ In EDA, I scrutinized following:
 * Emotional States Transformation Analysis
 * Emotional States Transformation by Age group
 
-### 3.Feature Engineering
+<h2 id="feature">4.Feature Engineering</h2>
 I have created meaningful features from band data (steps & heart rate by minute) within a certain period [5m, 10m, 30m, 1h, 3h] before the experience sampling (when we record emotional states of participants). Features including basic statistics of hear rate and steps, resting time, activity level and variation of heart rate. Among all these features, the ‘variation of heart rate in last 30 mins’ performs the best. And there are 13 engineered feature in top 30 important features (measured by ‘Loss Function Change’).
 * [Feature Engineering Code in Jupyter Notebook](https://github.com/RyC37/Emotional-Status-with-Wearable-Data/blob/master/Pre-processing-and-feature-engineering.ipynb)
 
 
-### 4.Modeling & Analysis
+<h2 id="model">5.Modeling</h2>
 From a business point of view, we need to account for new users and existing users. So I ended up with 2 type models. With first type trained on stratified split data and second type trained on data split by group. Due to the positivity bias (people tend to say they are happy), we have imbalanced data with only 10.8% records report negative emotion. To account for that, I tested different sample technologies (downsample majority class, oversample minority class, SMOTE) with different type of models. The best performance model is trained through oversample minority class with CatBoost.
 * [Predict Emotion for Current Users](https://github.com/RyC37/Emotional-Status-with-Wearable-Data/blob/master/Predict_Positive_or_Negative_Emotion_for_Current_User.ipynb)
 * [Predict Emotion for New Users](https://github.com/RyC37/Emotional-Status-with-Wearable-Data/blob/master/Predict_Positive_or_Negative_Emotion_for_New_User.ipynb)

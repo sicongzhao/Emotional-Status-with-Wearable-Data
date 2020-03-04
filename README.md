@@ -35,7 +35,7 @@ The contributors of this project:
 *Since this is a personal repo for recruiting purpose, I am only including code and conclusion from my work. For more information, please email sicong.zhao@duke.edu*
 
 <h2 id="data">2.Data Description</h2>
-In this project, I trained models based on data collected from over 150 participants over 10 days in the Motivated Cognition and Aging Brain lab in Duke Psychology & Neuroscience department, which contains:
+The data is collected from over 150 participants over 10 days in the Motivated Cognition and Aging Brain lab in Duke Psychology & Neuroscience department, which contains:
 
 * measures of personality and behavior
 * demographic data
@@ -45,6 +45,14 @@ In this project, I trained models based on data collected from over 150 particip
 
 <h2 id="eda">3.Exploratory Data Analysis</h2>
 
+In EDA, I scrutinized following:
+* Distribution & Correlation of Labels (Emotional States Measures)
+* Relationships bewteen Labels
+* Compare Emotional States by Subjects - check how emotional states vary across subjects
+* Valence by Age
+* PCA Analysis of Labels
+* Emotional States Transformation Analysis
+* Emotional States Transformation by Age group
 
 ### 3.Feature Engineering
 I have created meaningful features from band data (steps & heart rate by minute) within a certain period [5m, 10m, 30m, 1h, 3h] before the experience sampling (when we record emotional states of participants). Features including basic statistics of hear rate and steps, resting time, activity level and variation of heart rate. Among all these features, the ‘variation of heart rate in last 30 mins’ performs the best. And there are 13 engineered feature in top 30 important features (measured by ‘Loss Function Change’).

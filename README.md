@@ -9,7 +9,7 @@
 + [**Accuracy evaluation**](#Accuracy-evaluation)
 + [**References**](#references)
 
-<h3 id="introduction>1.Introduction</h3>
+<h3 id="introduction">1.Introduction</h3>
 This is an ongoing project about determining if negative emotional states can be predicted from wearable activity sensor data.
 Currently, the major achievements are:
 

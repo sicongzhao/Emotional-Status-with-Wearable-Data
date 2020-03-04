@@ -1,6 +1,15 @@
 # Emotional-Status-with-Wearable-Data
 
-### 1.Overview
+### Table of Contents
++ [**Introduction**](#introduction)
++ [**Installation**](#installation)
++ [**Data preparation module**](#Data-preparation-module)
++ [**Semantic Segmentation module**](#Semantic-Segmentation-module)
++ [**Post-processing module**](#Post-processing-module)
++ [**Accuracy evaluation**](#Accuracy-evaluation)
++ [**References**](#references)
+
+### 1.Introduction
 This is an ongoing project about determining if negative emotional states can be predicted from wearable activity sensor data.
 Currently, the major achievements are:
 

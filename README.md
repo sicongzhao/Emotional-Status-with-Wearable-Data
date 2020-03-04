@@ -1,7 +1,7 @@
 # Emotional-Status-with-Wearable-Data
 
 ### Table of Contents
-+ [**Introduction**](#1)
++ [**Introduction**](#1-introduction)
 + [**Installation**](#installation)
 + [**Data preparation module**](#Data-preparation-module)
 + [**Semantic Segmentation module**](#Semantic-Segmentation-module)

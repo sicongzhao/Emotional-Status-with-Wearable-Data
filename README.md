@@ -9,7 +9,7 @@
 + [**Accuracy evaluation**](#Accuracy-evaluation)
 + [**References**](#references)
 
-<h3 id="introduction">1.Introduction</h3>
+<h2 id="introduction">1.Introduction</h2>
 
 As the popularity and capability of wearable activity trackers has increased over the last 20 years, so has an interest in what data derived from their internal sensors can tell us about our overall health. 
 
@@ -20,9 +20,9 @@ The contributors of this project:
 * **Joaquin Menendez**: Data Pre-processing, Modeling
 * **Sicong Zhao**: Feature Engineering, Modeling, Data Quality Checking
 
-Since this is a personal repo, I am only including my work and the conclusion from my work.
+Since this is a personal repo, I am only including code and conclusion from my work. For more information, please email sicong.zhao@duke.edu
 
-<h3 id="methods">2.Methods</h3>
+<h2 id="methods">2.Methods</h2>
 
 This is an ongoing project about determining if negative emotional states can be predicted from wearable activity sensor data.
 Currently, the major achievements are:

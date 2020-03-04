@@ -11,7 +11,10 @@
 
 <h3 id="introduction">1.Introduction</h3>
 
+As the popularity and capability of wearable activity trackers has increased over the last 20 years, so has an interest in what data derived from their internal sensors can tell us about our overall health. 
+
 This project examines if emotional states can be reliably recognized from data derived from a commercially available wearable fitness tracker and additional indicators including neuroimaging, personality, and demographic data. 
+
 
 This is an ongoing project about determining if negative emotional states can be predicted from wearable activity sensor data.
 Currently, the major achievements are:

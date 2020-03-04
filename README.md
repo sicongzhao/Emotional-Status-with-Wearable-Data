@@ -2,7 +2,7 @@
 
 ### Table of Contents
 + [**Introduction**](#introduction)
-+ [**Installation**](#installation)
++ [**Methods**](#methods)
 + [**Data preparation module**](#Data-preparation-module)
 + [**Semantic Segmentation module**](#Semantic-Segmentation-module)
 + [**Post-processing module**](#Post-processing-module)
@@ -16,11 +16,13 @@ As the popularity and capability of wearable activity trackers has increased ove
 This project examines if emotional states can be reliably recognized from data derived from a commercially available wearable fitness tracker and additional indicators including neuroimaging, personality, and demographic data. 
 
 The contributors of this project:
-* Mikella Green: Data providor, Neuroscience expert
-* Joaquin Menendez: Data Pre-processing, Modeling
-* Sicong Zhao: Feature Engineering, Modeling
+* **Mikella Green**: Data providor, Neuroscience expert
+* **Joaquin Menendez**: Data Pre-processing, Modeling
+* **Sicong Zhao**: Feature Engineering, Modeling, Data Quality Checking
 
 Since this is a personal repo, I am only including my work and the conclusion from my work.
+
+<h3 id="methods">2.Methods</h3>
 
 This is an ongoing project about determining if negative emotional states can be predicted from wearable activity sensor data.
 Currently, the major achievements are:

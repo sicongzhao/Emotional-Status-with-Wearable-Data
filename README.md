@@ -2,7 +2,7 @@
 
 ### Table of Contents
 + [**Introduction**](#introduction)
-+ [**Methods**](#methods)
++ [**Methodology**](#methods)
 + [**Data preparation module**](#Data-preparation-module)
 + [**Semantic Segmentation module**](#Semantic-Segmentation-module)
 + [**Post-processing module**](#Post-processing-module)
@@ -20,9 +20,9 @@ The contributors of this project:
 * **Joaquin Menendez**: Data Pre-processing, Modeling
 * **Sicong Zhao**: Feature Engineering, Modeling, Data Quality Checking
 
-Since this is a personal repo, I am only including code and conclusion from my work. For more information, please email sicong.zhao@duke.edu
+*Since this is a personal repo, I am only including code and conclusion from my work. For more information, please email sicong.zhao@duke.edu*
 
-<h2 id="methods">2.Methods</h2>
+<h2 id="methods">2.Methodology</h2>
 
 This is an ongoing project about determining if negative emotional states can be predicted from wearable activity sensor data.
 Currently, the major achievements are:

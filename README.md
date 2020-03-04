@@ -21,6 +21,7 @@ Currently, we have achieved:
 * Precision: 0.61
 * Recall: 0.31
 * F1-Score: 0.40
+
 As a comparison, the precision of random guess is 0.11.
 
 2. Insights negative emotion: Among all our 161 predictors, Neuroticism stands out with highest feature importance score in terms of both ‘Loss Function Change’ and ‘Prediction Value Change’. It negatively influence human emotion.

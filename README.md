@@ -20,7 +20,7 @@ The contributors of this project:
 * **Joaquin Menendez**: Data Pre-processing, Modeling
 * **Sicong Zhao**: Feature Engineering, Modeling, Data Quality Checking
 
-*Since this is a personal repo, I am only including code and conclusion from my work. For more information, please email sicong.zhao@duke.edu*
+*Since this is a personal repo for recruiting purpose (demonstrate my personal capability), I am only including code and conclusion from my work. For more information, please email sicong.zhao@duke.edu*
 
 <h2 id="methods">2.Methodology</h2>
 

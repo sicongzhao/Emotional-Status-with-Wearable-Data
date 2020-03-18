@@ -54,11 +54,13 @@ We followed the traditional data science work flow as shown below. Let me break 
 
 My teammate, Joaquin did most of the work, extracted and organized data points from orginal database generated  in two experiment from Motivated Cognition and Aging Brain lab in Duke Psychology & Neuroscience department. I checked the data correctness, detected and fixed the scale inconsistency issue for 27 variables.
 
+More details in [**Data Quality Summary**](https://github.com/RyC37/Emotional-Status-with-Wearable-Data/blob/master/1-EDA/%5BReport%5D%20Data%20Quality%20Summary.pdf)
+
 **Step2. EDA** 
 
 I looked into the distributions of emotional states, emotional score distribution by age group, PCA analysis and KMeans analysis. This step helped us gain a deeper understanding of the data at hand, and resolved the pussle in terms of which method to use to decide if a subject is happy/unhappy.
 
-More detail in [**Exploratory Data Analysis**](#EDA) section.
+More details in [**Exploratory Data Analysis**](#EDA) section.
 
 **Step3. Feature Engineering**
 
@@ -68,7 +70,7 @@ I generated 3 types of features based on others' research and my ideas:
 * Steps related features
 * Survery related features
 
-More detail in [**Feature Engineering**](#feature) section
+More details in [**Feature Engineering**](#feature) section
 
 **Step4. Modeling**
 
@@ -100,7 +102,7 @@ The data is collected from over 150 participants over 10 days in the Motivated C
 
 The data is confidential for now, so I am not include the them in this repo. But after our work being published, the data will become public.
 
-<h2 id="eda">3.Exploratory Data Analysis</h2>
+<h2 id="eda">5.Exploratory Data Analysis</h2>
 
 In EDA, I scrutinized following:
 * Distribution & Correlation of Labels (Emotional States Measures)
@@ -111,9 +113,10 @@ In EDA, I scrutinized following:
 * Emotional States Transformation Analysis
 * Emotional States Transformation by Age group
 
-More details please refer to the [**Exploratory Data Analysis Report**](./1-EDA/[Report] Exploratory Data Analysis.pdf)
+More details please refer to the [**Exploratory Data Analysis Report**](https://github.com/RyC37/Emotional-Status-with-Wearable-Data/blob/master/1-EDA/%5BReport%5D%20Exploratory%20Data%20Analysis.pdf)
 
-<h2 id="feature">4.Feature Engineering</h2>
+<h2 id="feature">6.Feature Engineering</h2>
+
 I have created meaningful features from band data (steps & heart rate by minute) within a certain **period** [5m, 10m, 30m, 1h, 3h] (the concept can be shown in the graph below) before the experience sampling (when we record emotional states of participants). 
 
 Features including basic statistics of hear rate and steps, resting time, activity level and variation of heart rate. Among all these features, the ‘variation of heart rate in last 30 mins’ performs the best. And there are 13 engineered feature in top 30 important features (measured by ‘Loss Function Change’).
@@ -146,8 +149,8 @@ The definition of features generated:
 
 Code can be found at: [**Feature Engineering Code in Jupyter Notebook**](https://github.com/RyC37/Emotional-Status-with-Wearable-Data/blob/master/Pre-processing-and-feature-engineering.ipynb)
 
+<h2 id="model">7.Modeling</h2>
 
-<h2 id="model">5.Modeling</h2>
 From a business point of view, we need to account for new users and existing users. So I ended up with 2 type models. With first type trained on stratified split data and second type trained on data split by group. Due to the positivity bias (people tend to say they are happy), we have imbalanced data with only 10.8% records report negative emotion. To account for that, I tested different sample technologies (downsample majority class, oversample minority class, SMOTE) with different type of models. The best performance model is trained through oversample minority class with CatBoost.
 
 * [Predict Emotion for Current Users](https://github.com/RyC37/Emotional-Status-with-Wearable-Data/blob/master/Predict_Positive_or_Negative_Emotion_for_Current_User.ipynb)

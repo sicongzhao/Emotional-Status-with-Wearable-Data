@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Author: Sicong Zhao
 # -*- coding: utf-8 -*-
 import pandas as pd
 import numpy as np
@@ -34,12 +35,6 @@ def eval_class(y_test, y_pred):
     npv = tn / (tn + fn)
     f1 = f1_score(y_test, y_pred)
 
-#     print ('Accuracy: \t', str(accuracy))
-#     print ('Recall: \t', str(recall))
-#     print ('Precision: \t', str(precision))
-#     print ('Specificity: \t', str(specificity))
-#     print ('NPV: \t', str(npv))
-#     print ('F1: \t\t', str(f1))
     return [
         accuracy,
         recall,

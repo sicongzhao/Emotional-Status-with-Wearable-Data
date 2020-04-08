@@ -250,7 +250,7 @@ def main(problem_type, data_type, data_sample, user_type, param_index):
     training_params = [problem_type, data_type, data_sample, user_type, param_index]
     return np.append(training_params, results)
 
-count = 8
+count = 0
 for problem_type in ['reg', 'cls']:
     for data_type in ['all', 'fitbit']:
         for data_sample in ['smote','no', 'up','weight']:

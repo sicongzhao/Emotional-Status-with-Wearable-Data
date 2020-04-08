@@ -6,14 +6,14 @@
 
 ### Table of Contents
 
-+ [**Introduction**](#introduction)
-+ [**Methods**](#method)
-+ [**Data Description**](#data)
-+ [**Exploratory Data Analysis**](#EDA)
-+ [**Feature Engineering**](#feature)
-+ [**Modeling**](#model)
-+ [**Evaluation**](#evaluation)
-+ [**Conclusions**](#conclusion)
+1. [**Introduction**](#introduction)
+2. [**Methods**](#method)
+3. [**Data Description**](#data)
+4. [**Exploratory Data Analysis**](#EDA)
+5. [**Feature Engineering**](#feature)
+6. [**Modeling**](#model)
+7. [**Evaluation**](#evaluation)
+8. [**Conclusions**](#conclusion)
 
 
 
@@ -24,11 +24,15 @@ This project examines if emotional states can be reliably recognized from data d
 
 In this project, we have studied two type of labels constructed under the idea of the circumplex model of emotion. 
 
-Label 1: Positive/Negative Emotion
+
+
+**Label 1: Positive/Negative Emotion**
 
 ![label1](./4-Results/report-img/label1.png)
 
-Label 2: Relative Emotion
+
+
+**Label 2: Relative Emotion**
 
 ![label2](./4-Results/report-img/label2.png)
 
@@ -49,7 +53,7 @@ Table 1 shows the performance evaluation of the best models for predicting **Pos
 
 As shown in table 1, the model that gives the highest F1 score is the one predicting positive/negative emotion for current users using all data with class weight assignment. It has achieved an F1 score to be 0.544, and a precision to be 0.482, improved by 76.6% than random guesses. In order to understand each feature's influence on the prediction, we investigated the Shapley value of each feature in this model (see figure 6). The goal of Shapley value is to explain the prediction of an instance x by computing the contribution of each feature to the prediction.
 
-![Shap-positive-negative-emoiton](./4-Results/plots/Shap-relative-emotion.png)
+![Shap-relative-emotion](./4-Results/plots/Shap-positive-negative-emoiton.png)
 
 ***Fig1***. *The Shapley Values of the features from the best model that predict positive/negative emotion.* *There are 3 things which help you understand figure 6: (1) Each row represents a feature. (2) The color indicates relative value for each feature. blue represents relative lower value, red represents relative higher value. (3) The value on the axis at the bottom represents the influence on the output value, which is the probability that a subject is unhappy.*
 
@@ -79,9 +83,7 @@ Table 2 shows the performance evaluation of the best models for predicting **rel
 
 As shown in table 2, the model that gives the highest F1 score is the one predicting relative valence for current users using all data with class weight assignment. It has achieved an F1 score to be 0.705, and a precision to be 0.590, improved by 4.6% than random guesses. In order to understand each feature's influence on the prediction, we investigated the Shapley value of each feature in this model (see figure 2).
 
-![Shap-relative-emotion](./4-Results/plots/Shap-positive-negative-emoiton.png)
-
-
+![Shap-positive-negative-emoiton](./4-Results/plots/Shap-relative-emotion.png)
 
 ***Fig2***. *The Shapley Values of the features from the best model that predict relative emotion.*
 

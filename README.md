@@ -38,7 +38,7 @@ In this project, we have studied two type of labels constructed under the idea o
 
 
 
-**1) Prediction for Label1: Positive/Negative Emotion **
+**1) Prediction for Label1: Positive/Negative Emotion**
 
 Table 1 shows the performance evaluation of the best models for predicting **Positive Negative Emotion.** As a comparison, the precision for random guessing is 0.273.
 

@@ -2,7 +2,7 @@
 
 Sicong Zhao, Joaquin Menendez, Mikella Green
 
-*This is a team project with a bigger scope, everything included here is my contribution in the project.*
+*This is a team project with a bigger scope, everything included in this repository is my contribution in the project.*
 
 ### Table of Contents
 

@@ -1,6 +1,7 @@
 # Emotional-Status-with-Wearable-Data
 
 Sicong Zhao, Joaquin Menendez, Mikella Green
+
 *This is a team project with a bigger scope, everything included here is my contribution in the project.*
 
 ### Table of Contents

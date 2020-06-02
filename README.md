@@ -1,8 +1,7 @@
 # Emotional-Status-with-Wearable-Data
 
-*I use this repo to demonstrate my data science technical capability to recruiters. To avoid confusion, I have only included code, plots, graphs, and conclusions from my work. For more information, please email sicong.zhao@duke.edu*
-
-
+Sicong Zhao, Joaquin Menendez, Mikella Green
+*This is a team project with a bigger scope, everything included here is my contribution in the project.*
 
 ### Table of Contents
 
@@ -14,8 +13,6 @@
 6. [**Modeling**](#model)
 7. [**Evaluation**](#evaluation)
 8. [**Conclusions**](#conclusion)
-
-
 
 
 <h2 id="introduction">1.Introduction</h2>

@@ -1,11 +1,8 @@
 # Emotional-Status-with-Wearable-Data
 
-Sicong Zhao, Joaquin Menendez, Mikella Green
-
-*This is a team project with a bigger scope, everything included in this repository is my contribution in the project.*
-
 ### Table of Contents
 
+0. [**Acknowledgement**](#acknowledge)
 1. [**Introduction**](#introduction)
 2. [**Methods**](#method)
 3. [**Data Description**](#data)
@@ -15,6 +12,11 @@ Sicong Zhao, Joaquin Menendez, Mikella Green
 7. [**Evaluation**](#evaluation)
 8. [**Conclusions**](#conclusion)
 
+
+<h2 id="acknowledge">0.Acknowledgement</h2>
+
+**Joaquin Menendez**: Data pre-processing, Random Forest Modeling
+**Mikella Green**: Data Provider, Neuroscience Advisor
 
 <h2 id="introduction">1.Introduction</h2>
 

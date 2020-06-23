@@ -2,7 +2,6 @@
 
 ### Table of Contents
 
-0. [**Acknowledgement**](#acknowledge)
 1. [**Introduction**](#introduction)
 2. [**Methods**](#method)
 3. [**Data Description**](#data)
@@ -11,13 +10,7 @@
 6. [**Modeling**](#model)
 7. [**Evaluation**](#evaluation)
 8. [**Conclusions**](#conclusion)
-
-
-<h2 id="acknowledge">0.Acknowledgement</h2>
-
-**Joaquin Menendez**: Data pre-processing, Random Forest Modeling
-
-**Mikella Green**: Data Provider, Neuroscience Advisor
+9. [**Acknowledgement**](#acknowledge)
 
 <h2 id="introduction">1.Introduction</h2>
 
@@ -265,3 +258,11 @@ Psychological features are one time measurements, they are highly correlated wit
 **3.** **It is hard to predict emotional states for a new user. The pattern we have learnt from current users could actually harm the prediction for new users.**
 
 In both cases, prediction for positive/negative emotion and prediction for relative valence, the precision of prediction for new users are worse than random guesses. This means the knowledge we extracted from current users could not be applied to new users. An possible explanation for this observation is that emotional characteristics differ by person, and it is hard to find common patterns with respect to emotional states. This explanation could also be backed up by figure 5, in which we have shown the widespread histogram of the mean and standard deviation of positive score and negative score, indicating the variability of emotional traits by person.
+
+
+
+<h2 id="acknowledge">9.Acknowledgement</h2>
+
+**Joaquin Menendez**: Data pre-processing, Random Forest Modeling
+
+**Mikella Green**: Data Provider, Neuroscience Advisor

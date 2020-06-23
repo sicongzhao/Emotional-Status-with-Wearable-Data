@@ -16,6 +16,7 @@
 <h2 id="acknowledge">0.Acknowledgement</h2>
 
 **Joaquin Menendez**: Data pre-processing, Random Forest Modeling
+
 **Mikella Green**: Data Provider, Neuroscience Advisor
 
 <h2 id="introduction">1.Introduction</h2>
